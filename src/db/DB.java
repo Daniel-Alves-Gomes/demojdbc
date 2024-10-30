@@ -59,6 +59,7 @@ public class DB {
 	}
 
 	public static void closeResultSet(ResultSet rs) {
+
 		if (rs != null) {
 			try {
 				rs.close();
@@ -67,4 +68,5 @@ public class DB {
 			}
 		}
 	}
+
 }
